@@ -32,6 +32,10 @@ public class Employe {
     // Salaire de base de l'employé
     private double salaire;
 
+    public Employe() {
+
+    }
+
     public Employe(int secSocial, String nom, String prenom, LocalDate dateNaissance, String service, double salaire) {
         this.secSocial = secSocial;
         this.nom = nom;

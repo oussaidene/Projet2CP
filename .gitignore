@@ -1,3 +1,7 @@
-# ignore lib folder
+# ignore these folders
+
 lib/*
 .idea/*
+out/*
+src/hibernate.cfg.xml
+src/entity/Main.java
