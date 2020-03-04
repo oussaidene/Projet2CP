@@ -1,6 +1,5 @@
-# ignore these folders
+# ignore these folders/files
 
-lib/*
 .idea/*
 out/*
 src/hibernate.cfg.xml
