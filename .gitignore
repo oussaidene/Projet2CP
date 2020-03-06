@@ -1,6 +1,2 @@
 # ignore these folders/files
 
-.idea/*
-out/*
-src/hibernate.cfg.xml
-src/entity/Main.java
