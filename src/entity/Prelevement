@@ -1,0 +1,64 @@
+import javax.persistence.*;
+import java.time.LocalDate;
+import java.util.Objects;
+
+
+@Entity
+@Table(name = "prelevement")
+public class Prelevement {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
+    private int id;
+
+    @Column(name = "date_prelevement")
+    private LocalDate datePrelev;
+
+    @Column(name = "somme_prelevee")
+    private double somme;
+
+    public Prelevement(LocalDate datePrelev, double somme) {
+        this.datePrelev = datePrelev;
+        this.somme = somme;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public LocalDate getDatePrelev() {
+        return datePrelev;
+    }
+
+    public void setDatePrelev(LocalDate datePrelev) {
+        this.datePrelev = datePrelev;
+    }
+
+    public double getSomme() {
+        return somme;
+    }
+
+    public void setSomme(double somme) {
+        this.somme = somme;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Prelevement that = (Prelevement) o;
+        return id == that.id &&
+                Double.compare(that.somme, somme) == 0 &&
+                Objects.equals(datePrelev, that.datePrelev);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, datePrelev, somme);
+    }
+}
