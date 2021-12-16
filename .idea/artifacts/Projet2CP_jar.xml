@@ -1,0 +1,58 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Projet2CP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Projet2CP_jar</output-path>
+    <root id="archive" name="Projet2CP.jar">
+      <element id="module-output" name="Projet2CP" />
+      <element id="extracted-dir" path="C:/Program Files/Java/excel/commons-collections4-4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/excel/poi-3.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/excel/poi-ooxml-3.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/excel/poi-ooxml-schemas-3.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/excel/xmlbeans-2.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/commons-net-1.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/controlsfx-8.40.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/controlsfx-8.40.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/fontawesomefx-8.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/fontbox-2.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/javax.activation-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/javax.mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JavaFX/javafx-sdk-11.0.2/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JavaFX/javafx-sdk-11.0.2/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JavaFX/javafx-sdk-11.0.2/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JavaFX/javafx-sdk-11.0.2/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JavaFX/javafx-sdk-11.0.2/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JavaFX/javafx-sdk-11.0.2/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JavaFX/javafx-sdk-11.0.2/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JavaFX/javafx-sdk-11.0.2/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/JavaFX/javafx-sdk-11.0.2/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/pdfbox-2.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/pdfbox-app-2.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/pdfbox-tools-2.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/preflight-2.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/preflight-app-2.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/quartz-2.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/TrayNotification.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/TrayTester.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/view-11.8.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/Java/xmpbox-2.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/classmate-1.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jandex-2.1.1.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/antlr-2.7.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/stax-ex-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/txw2-2.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/byte-buddy-1.10.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/hibernate-core-5.4.11.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J 8/8.0.15/mysql-connector-java-8.0.15.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

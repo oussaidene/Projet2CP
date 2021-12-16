@@ -1,0 +1,232 @@
+#body{
+    /*-fx-background-image: url("background3.jpg");*/
+    -fx-background-size: 100% 100%;
+}
+
+
+@font-face {
+    src: url('fonts/BebasNeue-Regular.ttf');
+}
+
+
+#leftSide{
+    -fx-background-color: #253239;
+}
+
+.btn{
+    -fx-background-color: transparent;
+    -fx-pref-width: 324;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 20;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: transparent;
+    -fx-font-family: "Ebrima";
+    -fx-cursor: hand;
+}
+
+
+.table-view{
+    -fx-background-color: #fff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.table-view:focused{
+    -fx-background-color: #fff;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #fff;/* linear-gradient(#4d90cb 0%, #1d4263 100%); */
+    -fx-font-size: 16;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #b3c4cb;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #758f9b;
+    -fx-font-family: "Ebrima";
+    -fx-column-halignment: left;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-alignment: left;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #fff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0;
+    -fx-font-family: "Ebrima";
+}
+
+#home{
+    -fx-opacity: 1;
+    -fx-text-fill: white;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: transparent;
+}
+
+.btn:hover{
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #024f64;
+}
+
+#title{
+    -fx-font-family: "Bebas Neue";
+    -fx-border-width: 0 0 4 0;
+    -fx-border-color: #018290;
+    -fx-text-fill: #004353;
+}
+
+#lbl{
+   -fx-color-label-visible:  #fec097;
+}
+
+
+
+#retour{
+    -fx-background-radius: 50;
+    -fx-background-color: #0EC7FB;
+    -fx-border-radius: 50;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#haut{
+    -fx-background-radius: 0;
+    -fx-background-color: #9ccd66;
+    -fx-border-radius: 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 4, 0, 0, 0);
+}
+
+.rech{
+    -fx-background-radius: 50;
+    -fx-background-color: rgb(34, 118, 135);
+    -fx-border-radius: 50;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+
+.menu:hover, .menu:focused, .menu:pressed {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+}
+.menu-item:hover {
+    -fx-background-color: rgba(0, 21, 25, 0.4);
+    -fx-background-radius: 10;
+}
+.context-menu {
+    -fx-background-color: rgba(34, 118, 135, 0.9);
+    -fx-background-radius: 20;
+}
+
+.menu-item:focused {
+    -fx-background-color : rgba(0, 85, 102, 0.9);
+    -fx-background-radius: 10;
+
+}
+
+.go{
+    -fx-background-radius: 50;
+    -fx-background-color: rgba(52, 157, 178,1);
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #69808c;
+    -fx-font-size: 16;
+    -fx-border-width:  0;
+    -fx-padding: 8;
+    -fx-font-family: Ebrima;
+    -fx-alignment: TOP-CENTER;
+}
+
+#modif{
+    -fx-background-color: #018290;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-text-fill: white;
+}
+
+#supp{
+    -fx-background-color:  #fec097;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-text-fill: white;
+}
+
+#archives{
+    -fx-opacity: 1;
+    -fx-text-fill: #0EC7FB;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #0EC7FB;
+}
+
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll{
+    -fx-background-color: #253239;
+}
+
+.notification{
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #ababab;
+    -fx-padding: 0 0 10 0;
+}
+
+.notification:hover{
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+.titreNotif{
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 16;
+    -fx-padding: 0 0 0 45;
+    -fx-pref-height: 32;
+}
+
+.messageNotif{
+    -fx-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 14;
+    -fx-padding: 0 0 0 20;
+}
+
+.dateNotif{
+    -fx-text-fill: #a8a8a8;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 12;
+    -fx-padding: 0 50 0 0;
+}
+
+.x{
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 12;
+    -fx-padding: 5 10 5 5;
+}
+
+.x:hover{
+    -fx-font-size: 14;
+}
+
+.notif{
+    -fx-background-color: transparent;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 20;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: transparent;
+    -fx-font-family: "Ebrima";
+    -fx-cursor: hand;
+}
+
+.notif:hover{
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #024f64;
+}
+
+#courant{
+    -fx-opacity: 1;
+    -fx-text-fill: #0EC7FB;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #0EC7FB;
+}

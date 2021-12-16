@@ -1,0 +1,112 @@
+@font-face {
+    src: url('fonts/BebasNeue-Regular.ttf');
+}
+
+#top{
+    -fx-font-family: "Bebas Neue";
+    -fx-text-fill: #018290;
+    -fx-border-color: rgba(1, 130, 144, 0.77);
+}
+
+#body{
+    -fx-background-color: #EDEFF1;
+}
+
+#general{
+    -fx-text-fill: #fff;
+    -fx-background-color: #0EC7FB;
+    -fx-graphic-text-gap: 10;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 18px;
+    -fx-padding: 5;
+}
+
+#avance{
+    -fx-text-fill: #fff;
+    -fx-background-color: #9ccd66;
+    -fx-graphic-text-gap: 10;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 18px;
+    -fx-padding: 5;
+}
+
+.secondGrid{
+    -fx-border-width: 2;
+    -fx-border-color: #9ccd66;
+}
+
+.firstGrid{
+    -fx-border-width: 2;
+    -fx-border-color: #0EC7FB;
+}
+
+#more{
+    -fx-background-color: transparent;
+    -fx-border-radius: 50;
+    -fx-border-width: 1.5;
+    -fx-text-fill: #1b7ffb;
+    -fx-border-color: #1b7ffb;
+}
+
+#more:hover{
+    -fx-background-color: #1b7ffb;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 50;
+    -fx-effect: dropshadow(three-pass-box, rgb(17, 40, 59), 10, 0, 0, 0);
+}
+
+.labels{
+    -fx-text-fill: #278820;
+    -fx-graphic-text-gap: 10;
+    /*   -fx-font-family: "Segoe UI Semibold";*/
+    -fx-font-size: 15px;
+    -fx-font-family: "lat";
+}
+
+.labels2{
+    -fx-text-fill: #1b7ffb;
+    -fx-graphic-text-gap: 10;
+    /*   -fx-font-family: "Segoe UI Semibold";*/
+    -fx-font-size: 15px;
+    -fx-font-family: "lat";
+}
+
+.info{
+    -fx-text-fill: rgba(29, 29, 29, 0.86);
+    /*   -fx-font-family: "Segoe UI Semibold";*/
+}
+
+
+.bottom{
+    -fx-background-radius: 10;
+    -fx-border-color: #fc8c1d;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-font-size: 16;
+    -fx-background-color: #EDEFF1;
+    -fx-text-fill: #fc8c1d;
+    -fx-border-color: #fc8c1d;
+}
+
+
+.bottom:hover{
+    -fx-text-fill: #EDEFF1 ;
+    -fx-background-color: #fc8c1d;
+}
+
+#retour{
+    -fx-background-color: #e96363;
+    -fx-background-radius: 10;
+    -fx-text-fill: #EDEFF1 ;
+    -fx-border-color: #e96363;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+}
+
+
+#retour:hover{
+    -fx-background-color: #EDEFF1;
+    -fx-text-fill: #e96363;
+    -fx-border-color: #e96363;
+}
+

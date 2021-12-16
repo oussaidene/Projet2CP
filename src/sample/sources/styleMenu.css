@@ -1,0 +1,357 @@
+
+@font-face {
+    src: url('fonts/BebasNeue-Regular.ttf');
+}
+
+
+#whole{
+   /* -fx-background-color: #e9edf0;*/
+
+    -fx-background-image: url("conta.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: right center;
+    -fx-background-size: auto auto;
+}
+
+#body{
+    -fx-background-color: rgba(0, 0, 0, 0.45);
+}
+
+.title{
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 30;
+}
+
+
+#leftSide{
+    -fx-background-color: #253239;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll{
+    -fx-background-color: #253239;
+}
+
+#home{
+    -fx-opacity: 1;
+    -fx-text-fill: #0EC7FB;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #0EC7FB;
+}
+
+.btn{
+    -fx-background-color: transparent;
+    -fx-pref-width: 324;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 20;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: transparent;
+    -fx-font-family: "Ebrima";
+    -fx-cursor: hand;
+}
+
+.btn:hover{
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #024f64;
+}
+
+.notif{
+    -fx-background-color: transparent;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 20;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: transparent;
+    -fx-font-family: "Ebrima";
+    -fx-cursor: hand;
+}
+
+.notif:hover{
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #024f64;
+}
+
+
+.prets{
+    -fx-background-color: #9ccd66;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 4, 0, 0, 0);
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.prets:hover{
+    -fx-background-color: #a7e573;
+}
+
+
+.blue{
+    -fx-text-fill: #83eeff;
+    -fx-font-size: 18;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+}
+
+.red{
+    -fx-text-fill: #feabb5;
+    -fx-font-size: 18;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+}
+
+.purple{
+    -fx-text-fill: #eac1ff;
+    -fx-font-size: 18;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+}
+
+.green{
+    -fx-text-fill: #d1ffab;
+    -fx-font-size: 18;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+}
+
+
+
+.blueT{
+    -fx-text-fill: #83eeff;
+    -fx-font-size: 22;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15;
+}
+
+.redT{
+    -fx-text-fill: #feabb5;
+    -fx-font-size: 22;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15;
+}
+
+.purpleT{
+    -fx-text-fill: #eac1ff;
+    -fx-font-size: 22;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15;
+}
+
+.greenT{
+    -fx-text-fill: #d1ffab;
+    -fx-font-size: 22;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15;
+}
+
+.chart{
+    /*-fx-background-color: #fff;*/
+}
+
+.chart-title {
+    -fx-font-size: 22;
+    -fx-font-family: Ebrima;
+    -fx-text-fill: rgb(16, 96, 112) ;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+
+.default-color0.chart-area-symbol { -fx-background-color: #ffcf76, #e1b769; }
+.default-color0.chart-series-area-line { -fx-stroke: #e1b769; }
+.default-color0.chart-series-area-fill { -fx-fill: rgba(225, 183, 105, 0.45); }
+
+.deco{
+    -fx-background-color: #fe5f5f;
+    -fx-font-weight: bold;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 20px;
+}
+
+.deco:hover{
+    
+}
+
+.money{
+    -fx-border-width: 2;
+    -fx-border-color: #cacaca;
+    -fx-text-fill: #e1b769;
+    -fx-background-color: #fff;
+}
+
+.moreGreen{
+    -fx-background-color: rgba(206, 255, 137, 0.66);
+    -fx-border-color: #b8e07d;
+    -fx-border-width: 2;
+}
+
+.moreRed{
+    -fx-background-color: rgba(255, 96, 113, 0.67);
+    -fx-border-color: #ff6071;
+    -fx-border-width: 2;
+}
+
+.default-color0.chart-bar { -fx-bar-fill: #b8e07d; }
+
+
+.table-view{
+    -fx-border-color: #9eca6b;
+    -fx-background-color: #fff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.table-view:focused{
+    -fx-background-color: #fff;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #b3e07f;/* linear-gradient(#4d90cb 0%, #1d4263 100%); */
+    -fx-font-size: 20;
+    -fx-font-family: Ebrima;
+
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Ebrima";
+    -fx-column-halignment: left;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-alignment: left;
+
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #2f3b44;
+    -fx-font-size: 16;
+    -fx-border-width:  0;
+    -fx-padding: 8;
+    -fx-font-family: Ebrima;
+    -fx-alignment: TOP-CENTER;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #fff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-font-family: "Ebrima";
+}
+
+
+.table-row-cell:selected {
+    -fx-background-color: #9ae5fe;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.somme.table-cell{
+    -fx-text-fill: green;
+    -fx-alignment: BOTTOM-CENTER;
+}
+
+.restante.table-cell{
+    -fx-text-fill: red;
+    -fx-alignment: BOTTOM-CENTER;
+}
+
+.type.table-cell{
+    -fx-alignment: TOP-LEFT;
+}
+
+
+.default-color2.chart-symbol { /* solid diamond */
+    -fx-background-color: #22bad9;
+    -fx-background-radius: 0;
+    -fx-padding: 7px 5px 7px 5px;
+    -fx-shape: "M5,0 L10,9 L5,18 L0,9 Z";
+}
+
+
+.which{
+    -fx-background-radius: 10em;
+    -fx-min-width: 3px;
+    -fx-min-height: 10px;
+    -fx-max-width: 10px;
+    -fx-max-height: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 4, 0, 0, 0);
+    -fx-background-color: #fff;
+}
+
+.on{
+    -fx-background-color: rgba(255, 87, 0, 0.76);
+}
+
+.notification{
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #ababab;
+    -fx-padding: 0 0 10 0;
+}
+
+.notification:hover{
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+.titreNotif{
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 16;
+    -fx-padding: 0 0 0 45;
+    -fx-pref-height: 32;
+}
+
+.messageNotif{
+    -fx-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 14;
+    -fx-padding: 0 0 0 20;
+}
+
+.dateNotif{
+    -fx-text-fill: #a8a8a8;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 12;
+    -fx-padding: 0 50 0 0;
+}
+
+.x{
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 12;
+    -fx-padding: 5 10 5 5;
+}
+
+.x:hover{
+    -fx-font-size: 14;
+}
+
+.listButton{
+    -fx-padding: 8;
+    -fx-background-radius: 0;
+    -fx-background-color: #01a2b1;
+    -fx-border-radius: 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 4, 0, 0, 0);
+    -fx-font-family: "Ebrima";
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+}
+
+.listButton:hover{
+    -fx-background-color: rgba(1, 205, 220, 0.83);
+}

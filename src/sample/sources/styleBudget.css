@@ -1,0 +1,45 @@
+
+#body{
+    -fx-background-color: #fff;
+}
+
+.title{
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-text-fill: #253239;
+    -fx-font-size: 20;
+}
+
+.labels{
+    -fx-font-family: Ebrima;
+    -fx-font-size: 15;
+}
+
+.actuel{
+    -fx-font-family: Ebrima;
+    -fx-font-size: 15;
+    -fx-text-fill: #575757;
+}
+
+.new{
+    -fx-font-family: Ebrima;
+    -fx-font-size: 15;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #405d69;
+    -fx-background-color: transparent;
+    -fx-text-fill: #575757;
+}
+
+.confirmer{
+    -fx-font-family: Ebrima;
+    -fx-font-size: 15;
+    -fx-background-color: #9ccd66;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 4, 0, 0, 0);
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+}
+
+.confirmer:hover{
+    -fx-background-color: rgba(198, 248, 102, 0.8);
+}
+

@@ -1,0 +1,40 @@
+
+#wholee{
+    -fx-background-image: url("conta1.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: right center;
+    -fx-background-size: auto auto;
+}
+
+#body{
+    -fx-background-color: rgba(0, 0, 0, 0.45);
+}
+
+
+.btn1{
+    -fx-background-color: transparent;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 20;
+    -fx-border-color: transparent;
+    -fx-font-family: "Arial Black";
+    -fx-cursor: hand;
+}
+
+.btn1:hover{
+    -fx-text-fill: #fff;
+}
+
+.title{
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+}
+
+.desc{
+    -fx-text-fill: #fff;
+    -fx-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 18;
+}
+

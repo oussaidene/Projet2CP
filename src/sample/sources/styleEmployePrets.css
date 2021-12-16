@@ -1,0 +1,109 @@
+@font-face {
+    src: url('fonts/BebasNeue-Regular.ttf');
+}
+
+.title {
+    -fx-font-family: "Bebas Neue";
+    -fx-text-fill: #018290;
+    -fx-border-color: #015766;
+    -fx-border-width: 0 0 3 0;
+    -fx-font-size: 36;
+}
+
+
+.table-view{
+    -fx-border-color: #9eca6b;
+    -fx-background-color: #fff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.table-view:focused{
+    -fx-background-color: #fff;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #b3e07f;/* linear-gradient(#4d90cb 0%, #1d4263 100%); */
+    -fx-font-size: 16;
+    -fx-font-family: Ebrima;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Ebrima";
+    -fx-column-halignment: left;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-alignment: left;
+
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #2f3b44;
+    -fx-font-size: 16;
+    -fx-border-width:  0;
+    -fx-padding: 8;
+    -fx-font-family: Ebrima;
+    -fx-alignment: TOP-CENTER;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #fff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-font-family: "Ebrima";
+}
+
+
+.table-row-cell:selected {
+    -fx-background-color: #9ae5fe;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.somme.table-cell{
+    -fx-text-fill: green;
+    -fx-alignment: BOTTOM-CENTER;
+}
+
+.restante.table-cell{
+    -fx-text-fill: red;
+    -fx-alignment: BOTTOM-CENTER;
+}
+
+#retour{
+    -fx-background-color: #e96363;
+    -fx-background-radius: 10;
+    -fx-text-fill: #EDEFF1 ;
+    -fx-border-color: #e96363;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 20;
+}
+
+
+#retour:hover{
+    -fx-background-color: #EDEFF1;
+    -fx-text-fill: #e96363;
+    -fx-border-color: #e96363;
+}
+
+.enCours{
+
+    -fx-background-radius: 0;
+    -fx-background-color: #01a2b1;
+    -fx-border-radius: 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 4, 0, 0, 0);
+    -fx-font-family: "Ebrima";
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+
+.enCours:hover{
+    -fx-background-color: rgba(1, 205, 220, 0.83);
+}

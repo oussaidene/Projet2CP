@@ -1,0 +1,54 @@
+.cnx{
+	-fx-background-color: #357AB7;
+	-fx-border-radius: 50%;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-radius: 50px;
+	-fx-display: inline-block;
+    -fx-cursor: pointer;
+    -fx-text-align: center;
+    -fx-outline: none;
+    -fx-color: #000000;
+    -fx-border-radius: 15px;
+  
+}
+
+
+.cnx:hover {
+	-fx-background-color:#73CAE1
+}
+
+.cnx:active {
+  -fx-background-color: #9EBFDC;
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+
+}
+
+.bp{
+    -fx-background-image: url(cnx.jpg);
+}
+
+#tout{
+    -fx-background-color: radial-gradient(center 50% 50% , radius 100% , #ebf3f9, #008080);
+}
+
+.text-field {
+    -fx-background-color: transparent ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-border-insets: 0 0 1 0;
+    -fx-background-radius: 0 ;
+    -fx-border-color :   #011C31;
+    -fx-border-width :  0px 0px 1px 0px;
+}
+
+.textfield-line{
+    -fx-background-color: #011C31;
+    -fx-scale-y: 250%;
+}
+
+/*.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}*/
+
+
+
+/********************************************************************/

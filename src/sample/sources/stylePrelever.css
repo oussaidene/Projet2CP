@@ -1,0 +1,25 @@
+#body{
+    -fx-background-color: #358798;
+    -fx-border-width: 3px;
+    -fx-border-color: #fff;
+}
+
+.btn{
+    -fx-background-color: transparent;
+    -fx-border-width: 2;
+    -fx-border-color: #fff;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.btn:hover{
+    -fx-background-color: #fff;
+    -fx-text-fill: #358798;
+}
+
+.textF{
+    -fx-border-color: #fff;
+    -fx-border-width: 0 0 2 0;
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+}

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="commons-net-1.4.1">
+    <CLASSES>
+      <root url="jar://C:/Program Files/Java/commons-net-1.4.1.jar!/" />
+      <root url="jar://C:/Program Files/Java/controlsfx-8.40.11.jar!/" />
+      <root url="jar://C:/Program Files/Java/controlsfx-8.40.16.jar!/" />
+      <root url="jar://C:/Program Files/Java/fontawesomefx-8.2.jar!/" />
+      <root url="jar://C:/Program Files/Java/fontbox-2.0.19.jar!/" />
+      <root url="jar://C:/Program Files/Java/javax.activation-1.2.0.jar!/" />
+      <root url="jar://C:/Program Files/Java/javax.mail.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

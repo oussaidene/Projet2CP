@@ -1,0 +1,132 @@
+
+@font-face {
+    src: url('fonts/BebasNeue-Regular.ttf');
+}
+
+#title{
+    -fx-font-family: "Bebas Neue";
+    -fx-border-width: 0 0 4 0;
+    -fx-border-color: #018290;
+}
+
+#body{
+    -fx-background-color: #EDEFF1;
+}
+
+#leftSide{
+    -fx-background-color: #253239;
+}
+
+.btn{
+    -fx-background-color: transparent;
+    -fx-pref-width: 324;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 20;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: transparent;
+    -fx-font-family: "Ebrima";
+    -fx-cursor: hand;
+}
+
+
+.btn:hover{
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #024f64;
+}
+
+#demandes{
+    -fx-opacity: 1;
+    -fx-text-fill: #0EC7FB;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #0EC7FB;
+}
+
+#retour{
+    -fx-background-radius: 0;
+    -fx-background-color: #ce3b2f;
+    -fx-border-radius: 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 4, 0, 0, 0);
+}
+
+#confirmer{
+    -fx-background-radius: 0;
+    -fx-background-color: #9ccd66;
+    -fx-border-radius: 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 4, 0, 0, 0);
+}
+
+#confirmer:hover{
+    -fx-background-color: #b7e967;
+}
+
+#retour:hover{
+    -fx-background-color: #f94c40;
+}
+
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll{
+    -fx-background-color: #253239;
+}
+
+.notification{
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #ababab;
+    -fx-padding: 0 0 10 0;
+}
+
+.notification:hover{
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+.titreNotif{
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 16;
+    -fx-padding: 0 0 0 45;
+    -fx-pref-height: 32;
+}
+
+.messageNotif{
+    -fx-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 14;
+    -fx-padding: 0 0 0 20;
+}
+
+.dateNotif{
+    -fx-text-fill: #a8a8a8;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 12;
+    -fx-padding: 0 50 0 0;
+}
+
+.x{
+    -fx-text-fill: #fff;
+    -fx-font-family: Ebrima;
+    -fx-font-size: 12;
+    -fx-padding: 5 10 5 5;
+}
+
+.x:hover{
+    -fx-font-size: 14;
+}
+
+.notif{
+    -fx-background-color: transparent;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-size: 20;
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: transparent;
+    -fx-font-family: "Ebrima";
+    -fx-cursor: hand;
+}
+
+.notif:hover{
+    -fx-border-width: 0 0 0 10;
+    -fx-border-color: #024f64;
+}
+

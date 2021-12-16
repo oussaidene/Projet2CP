@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="pdfbox-2.0.19">
+    <CLASSES>
+      <root url="jar://C:/Program Files/Java/pdfbox-2.0.19.jar!/" />
+      <root url="jar://C:/Program Files/Java/pdfbox-app-2.0.19.jar!/" />
+      <root url="jar://C:/Program Files/Java/pdfbox-tools-2.0.19.jar!/" />
+      <root url="jar://C:/Program Files/Java/preflight-2.0.19.jar!/" />
+      <root url="jar://C:/Program Files/Java/preflight-app-2.0.19.jar!/" />
+      <root url="jar://C:/Program Files/Java/quartz-2.2.3.jar!/" />
+      <root url="jar://C:/Program Files/Java/TrayNotification.jar!/" />
+      <root url="jar://C:/Program Files/Java/TrayTester.jar!/" />
+      <root url="jar://C:/Program Files/Java/view-11.8.3.jar!/" />
+      <root url="jar://C:/Program Files/Java/xmpbox-2.0.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
